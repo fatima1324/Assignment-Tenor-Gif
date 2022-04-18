@@ -1,0 +1,81 @@
+body{
+    margin: auto;
+    width: 96%;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(179, 103, 103, 0), rgb(174, 50, 50));
+   
+}
+
+.pics{
+    width:400px;
+    height: 300px;
+    border:2px solid hsl(325, 43%, 50%);
+    text-align: center; 
+    box-shadow: 2px 2px  2px hsl(314, 70%, 40%); 
+    background-color: rgb(265, 200, 0); 
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+  }
+
+#limit{
+    margin: 20px;
+    border: #2a0f92;
+}
+#text{
+    
+    margin: 20px;
+    border: #2a0f92;
+}
+
+#container {
+    display: block;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 50px;
+    justify-content: center; 
+    width: 90%; 
+      
+}
+
+.head{
+    width: 25%;
+    height: 30px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:10px;
+    background-color: rgb(265, 200, 0);
+    border:1px solid hsl(0, 55%, 42%);
+    color: hsl(0, 55%, 42%);
+    box-shadow: 10px 10px 5px hsl(0, 55%, 42%);
+}
+
+#btn{
+ 
+        background-color: white;
+        color: black;
+        border: 2px solid #2a0f92; /* Green */
+
+}
+
+
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+ .row {
+  
+
+ }
+ 
